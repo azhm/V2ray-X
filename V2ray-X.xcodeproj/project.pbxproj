@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35FDACEB05BF5EECDB3DF5C5 /* Pods_V2ray_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1764A954FA3722CA939AD9F /* Pods_V2ray_X.framework */; };
+		AB8E9AE6209E12AF00BE8119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9AE5209E12AF00BE8119 /* AppDelegate.swift */; };
+		AB8E9AE8209E12B100BE8119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9AE7209E12B100BE8119 /* Assets.xcassets */; };
+		AB8E9AF9209E147A00BE8119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9AF5209E147900BE8119 /* ViewController.swift */; };
+		AB8E9AFD209E14A600BE8119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9AFB209E14A500BE8119 /* Main.storyboard */; };
+		AB8E9B09209E14B700BE8119 /* user-rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9AFF209E14B600BE8119 /* user-rule.txt */; };
+		AB8E9B0A209E14B700BE8119 /* gfwlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B00209E14B600BE8119 /* gfwlist.txt */; };
+		AB8E9B0B209E14B700BE8119 /* abp.js in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B01209E14B600BE8119 /* abp.js */; };
+		AB8E9B0C209E14B700BE8119 /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B03209E14B600BE8119 /* LogUtil.swift */; };
+		AB8E9B0D209E14B700BE8119 /* CommonAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */; };
+		AB8E9B0E209E14B700BE8119 /* ProxyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */; };
+		AB8E9B0F209E14B700BE8119 /* PacUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B06209E14B600BE8119 /* PacUtil.swift */; };
+		AB8E9B10209E14B700BE8119 /* DefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */; };
+		AB8E9B11209E14B700BE8119 /* ServiceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C83CD05F4D0D8E35543EF8 /* Pods-V2ray-X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ray-X.release.xcconfig"; path = "Pods/Target Support Files/Pods-V2ray-X/Pods-V2ray-X.release.xcconfig"; sourceTree = "<group>"; };
+		AB8E9AE2209E12AF00BE8119 /* V2ray-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V2ray-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8E9AE5209E12AF00BE8119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8E9AE7209E12B100BE8119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8E9AEC209E12B100BE8119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8E9AED209E12B100BE8119 /* V2ray_X.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = V2ray_X.entitlements; sourceTree = "<group>"; };
+		AB8E9AF5209E147900BE8119 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8E9AFC209E14A500BE8119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8E9AFF209E14B600BE8119 /* user-rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "user-rule.txt"; sourceTree = "<group>"; };
+		AB8E9B00209E14B600BE8119 /* gfwlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gfwlist.txt; sourceTree = "<group>"; };
+		AB8E9B01209E14B600BE8119 /* abp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abp.js; sourceTree = "<group>"; };
+		AB8E9B03209E14B600BE8119 /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAuthorization.swift; sourceTree = "<group>"; };
+		AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyConfig.swift; sourceTree = "<group>"; };
+		AB8E9B06209E14B600BE8119 /* PacUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacUtil.swift; sourceTree = "<group>"; };
+		AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsUtil.swift; sourceTree = "<group>"; };
+		AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUtil.swift; sourceTree = "<group>"; };
+		CA7A7A9A560864C50E741745 /* Pods-V2ray-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ray-X.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V2ray-X/Pods-V2ray-X.debug.xcconfig"; sourceTree = "<group>"; };
+		D1764A954FA3722CA939AD9F /* Pods_V2ray_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_V2ray_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8E9ADF209E12AF00BE8119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FDACEB05BF5EECDB3DF5C5 /* Pods_V2ray_X.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD59179126F1942034B7681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1764A954FA3722CA939AD9F /* Pods_V2ray_X.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94663248F202A6EB4FC1C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA7A7A9A560864C50E741745 /* Pods-V2ray-X.debug.xcconfig */,
+				06C83CD05F4D0D8E35543EF8 /* Pods-V2ray-X.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB8E9AD9209E12AF00BE8119 = {
+			isa = PBXGroup;
+			children = (
+				AB8E9AE4209E12AF00BE8119 /* V2ray-X */,
+				AB8E9AE3209E12AF00BE8119 /* Products */,
+				A94663248F202A6EB4FC1C30 /* Pods */,
+				0BD59179126F1942034B7681 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8E9AE3209E12AF00BE8119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E9AE2209E12AF00BE8119 /* V2ray-X.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8E9AE4209E12AF00BE8119 /* V2ray-X */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E9AFE209E14B600BE8119 /* Support Files */,
+				AB8E9B02209E14B600BE8119 /* Tools */,
+				AB8E9AFB209E14A500BE8119 /* Main.storyboard */,
+				AB8E9AE5209E12AF00BE8119 /* AppDelegate.swift */,
+				AB8E9AF5209E147900BE8119 /* ViewController.swift */,
+				AB8E9AE7209E12B100BE8119 /* Assets.xcassets */,
+				AB8E9AEC209E12B100BE8119 /* Info.plist */,
+				AB8E9AED209E12B100BE8119 /* V2ray_X.entitlements */,
+			);
+			path = "V2ray-X";
+			sourceTree = "<group>";
+		};
+		AB8E9AFE209E14B600BE8119 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E9AFF209E14B600BE8119 /* user-rule.txt */,
+				AB8E9B00209E14B600BE8119 /* gfwlist.txt */,
+				AB8E9B01209E14B600BE8119 /* abp.js */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		AB8E9B02209E14B600BE8119 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E9B03209E14B600BE8119 /* LogUtil.swift */,
+				AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */,
+				AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */,
+				AB8E9B06209E14B600BE8119 /* PacUtil.swift */,
+				AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */,
+				AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8E9AE1209E12AF00BE8119 /* V2ray-X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8E9AF0209E12B100BE8119 /* Build configuration list for PBXNativeTarget "V2ray-X" */;
+			buildPhases = (
+				6E33BD766ABB8451DD8601BA /* [CP] Check Pods Manifest.lock */,
+				AB8E9ADE209E12AF00BE8119 /* Sources */,
+				AB8E9ADF209E12AF00BE8119 /* Frameworks */,
+				AB8E9AE0209E12AF00BE8119 /* Resources */,
+				CBF0ED64491FE9FE4A85E351 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "V2ray-X";
+			productName = "V2ray-X";
+			productReference = AB8E9AE2209E12AF00BE8119 /* V2ray-X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8E9ADA209E12AF00BE8119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LEI;
+				TargetAttributes = {
+					AB8E9AE1209E12AF00BE8119 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AB8E9ADD209E12AF00BE8119 /* Build configuration list for PBXProject "V2ray-X" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8E9AD9209E12AF00BE8119;
+			productRefGroup = AB8E9AE3209E12AF00BE8119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8E9AE1209E12AF00BE8119 /* V2ray-X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8E9AE0209E12AF00BE8119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8E9AFD209E14A600BE8119 /* Main.storyboard in Resources */,
+				AB8E9AE8209E12B100BE8119 /* Assets.xcassets in Resources */,
+				AB8E9B0B209E14B700BE8119 /* abp.js in Resources */,
+				AB8E9B0A209E14B700BE8119 /* gfwlist.txt in Resources */,
+				AB8E9B09209E14B700BE8119 /* user-rule.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E33BD766ABB8451DD8601BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-V2ray-X-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF0ED64491FE9FE4A85E351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-V2ray-X/Pods-V2ray-X-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
+				"${BUILT_PRODUCTS_DIR}/NSSwitch/NSSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V2ray-X/Pods-V2ray-X-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8E9ADE209E12AF00BE8119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8E9B10209E14B700BE8119 /* DefaultsUtil.swift in Sources */,
+				AB8E9AF9209E147A00BE8119 /* ViewController.swift in Sources */,
+				AB8E9B0E209E14B700BE8119 /* ProxyConfig.swift in Sources */,
+				AB8E9B11209E14B700BE8119 /* ServiceUtil.swift in Sources */,
+				AB8E9B0F209E14B700BE8119 /* PacUtil.swift in Sources */,
+				AB8E9B0C209E14B700BE8119 /* LogUtil.swift in Sources */,
+				AB8E9B0D209E14B700BE8119 /* CommonAuthorization.swift in Sources */,
+				AB8E9AE6209E12AF00BE8119 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8E9AFB209E14A500BE8119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8E9AFC209E14A500BE8119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8E9AEE209E12B100BE8119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB8E9AEF209E12B100BE8119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB8E9AF1209E12B100BE8119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7A7A9A560864C50E741745 /* Pods-V2ray-X.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "V2ray-X/V2ray_X.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "V2ray-X/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nadaflash.V2ray-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AB8E9AF2209E12B100BE8119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C83CD05F4D0D8E35543EF8 /* Pods-V2ray-X.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "V2ray-X/V2ray_X.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "V2ray-X/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nadaflash.V2ray-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8E9ADD209E12AF00BE8119 /* Build configuration list for PBXProject "V2ray-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8E9AEE209E12B100BE8119 /* Debug */,
+				AB8E9AEF209E12B100BE8119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8E9AF0209E12B100BE8119 /* Build configuration list for PBXNativeTarget "V2ray-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8E9AF1209E12B100BE8119 /* Debug */,
+				AB8E9AF2209E12B100BE8119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8E9ADA209E12AF00BE8119 /* Project object */;
+}

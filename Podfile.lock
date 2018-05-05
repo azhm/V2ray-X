@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
+  - GCDWebServer (3.4.2):
+    - GCDWebServer/Core (= 3.4.2)
+  - GCDWebServer/Core (3.4.2)
+  - NSSwitch (1.1.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SwiftyBeaver (1.5.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.2)
+  - Crashlytics (~> 3.10.1)
+  - GCDWebServer (~> 3.0)
+  - NSSwitch (~> 1.1.4)
+  - RxCocoa (~> 4.1.2)
+  - RxSwift (~> 4.1.2)
+  - SwiftyBeaver (~> 1.5.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Crashlytics
+    - Fabric
+    - GCDWebServer
+    - NSSwitch
+    - RxCocoa
+    - RxSwift
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  NSSwitch: 4280a0145a5c702ba7e77e442323ea32f0415833
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+
+PODFILE CHECKSUM: d2e9c6c48f3890f5bd35ee2bff4ecff789bc5b9d
+
+COCOAPODS: 1.5.0
