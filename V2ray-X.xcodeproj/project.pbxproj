@@ -16,13 +16,12 @@
 		AB8E9B0A209E14B700BE8119 /* gfwlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B00209E14B600BE8119 /* gfwlist.txt */; };
 		AB8E9B0B209E14B700BE8119 /* abp.js in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B01209E14B600BE8119 /* abp.js */; };
 		AB8E9B0C209E14B700BE8119 /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B03209E14B600BE8119 /* LogUtil.swift */; };
-		AB8E9B0D209E14B700BE8119 /* CommonAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */; };
-		AB8E9B0E209E14B700BE8119 /* ProxyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */; };
 		AB8E9B0F209E14B700BE8119 /* PacUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B06209E14B600BE8119 /* PacUtil.swift */; };
 		AB8E9B10209E14B700BE8119 /* DefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */; };
 		AB8E9B11209E14B700BE8119 /* ServiceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */; };
-		AB8E9B14209E192000BE8119 /* README in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B12209E191F00BE8119 /* README */; };
 		AB8E9B15209E192000BE8119 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B13209E191F00BE8119 /* LICENSE */; };
+		AB8E9B17209E1D2C00BE8119 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB8E9B16209E1D2C00BE8119 /* README.md */; };
+		AB8E9B19209EDCDB00BE8119 /* ProxyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E9B18209EDCDB00BE8119 /* ProxyUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +37,12 @@
 		AB8E9B00209E14B600BE8119 /* gfwlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gfwlist.txt; sourceTree = "<group>"; };
 		AB8E9B01209E14B600BE8119 /* abp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abp.js; sourceTree = "<group>"; };
 		AB8E9B03209E14B600BE8119 /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
-		AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAuthorization.swift; sourceTree = "<group>"; };
-		AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyConfig.swift; sourceTree = "<group>"; };
 		AB8E9B06209E14B600BE8119 /* PacUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacUtil.swift; sourceTree = "<group>"; };
 		AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsUtil.swift; sourceTree = "<group>"; };
 		AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUtil.swift; sourceTree = "<group>"; };
-		AB8E9B12209E191F00BE8119 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		AB8E9B13209E191F00BE8119 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AB8E9B16209E1D2C00BE8119 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB8E9B18209EDCDB00BE8119 /* ProxyUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyUtil.swift; sourceTree = "<group>"; };
 		CA7A7A9A560864C50E741745 /* Pods-V2ray-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ray-X.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V2ray-X/Pods-V2ray-X.debug.xcconfig"; sourceTree = "<group>"; };
 		D1764A954FA3722CA939AD9F /* Pods_V2ray_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_V2ray_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,8 +79,8 @@
 		AB8E9AD9209E12AF00BE8119 = {
 			isa = PBXGroup;
 			children = (
+				AB8E9B16209E1D2C00BE8119 /* README.md */,
 				AB8E9B13209E191F00BE8119 /* LICENSE */,
-				AB8E9B12209E191F00BE8119 /* README */,
 				AB8E9AE4209E12AF00BE8119 /* V2ray-X */,
 				AB8E9AE3209E12AF00BE8119 /* Products */,
 				A94663248F202A6EB4FC1C30 /* Pods */,
@@ -127,8 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				AB8E9B03209E14B600BE8119 /* LogUtil.swift */,
-				AB8E9B04209E14B600BE8119 /* CommonAuthorization.swift */,
-				AB8E9B05209E14B600BE8119 /* ProxyConfig.swift */,
+				AB8E9B18209EDCDB00BE8119 /* ProxyUtil.swift */,
 				AB8E9B06209E14B600BE8119 /* PacUtil.swift */,
 				AB8E9B07209E14B600BE8119 /* DefaultsUtil.swift */,
 				AB8E9B08209E14B600BE8119 /* ServiceUtil.swift */,
@@ -196,10 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8E9B14209E192000BE8119 /* README in Resources */,
 				AB8E9AFD209E14A600BE8119 /* Main.storyboard in Resources */,
 				AB8E9AE8209E12B100BE8119 /* Assets.xcassets in Resources */,
 				AB8E9B15209E192000BE8119 /* LICENSE in Resources */,
+				AB8E9B17209E1D2C00BE8119 /* README.md in Resources */,
 				AB8E9B0B209E14B700BE8119 /* abp.js in Resources */,
 				AB8E9B0A209E14B700BE8119 /* gfwlist.txt in Resources */,
 				AB8E9B09209E14B700BE8119 /* user-rule.txt in Resources */,
@@ -264,11 +261,10 @@
 			files = (
 				AB8E9B10209E14B700BE8119 /* DefaultsUtil.swift in Sources */,
 				AB8E9AF9209E147A00BE8119 /* ViewController.swift in Sources */,
-				AB8E9B0E209E14B700BE8119 /* ProxyConfig.swift in Sources */,
 				AB8E9B11209E14B700BE8119 /* ServiceUtil.swift in Sources */,
 				AB8E9B0F209E14B700BE8119 /* PacUtil.swift in Sources */,
 				AB8E9B0C209E14B700BE8119 /* LogUtil.swift in Sources */,
-				AB8E9B0D209E14B700BE8119 /* CommonAuthorization.swift in Sources */,
+				AB8E9B19209EDCDB00BE8119 /* ProxyUtil.swift in Sources */,
 				AB8E9AE6209E12AF00BE8119 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

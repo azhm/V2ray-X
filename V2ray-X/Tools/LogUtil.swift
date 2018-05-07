@@ -30,9 +30,11 @@ class LogUtil: NSObject {
     
     private func tvloginfo(level: String, msg: String) {
         if let tv = textView {
-            tv.string = "\(tv.string)\(getTime()) \(level) \(msg)\n"
-            if (tv.visibleRect.maxY <= tv.bounds.maxY) {
-                tv.scrollToEndOfDocument(self)
+            DispatchQueue.main.async {
+                tv.string = "\(tv.string)\(self.getTime()) \(level) \(msg)\n"
+                if (tv.visibleRect.maxY <= tv.bounds.maxY) {
+                    tv.scrollToEndOfDocument(self)
+                }
             }
         }
     }

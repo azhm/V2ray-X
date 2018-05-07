@@ -10,6 +10,12 @@ import Cocoa
 
 let log = LogUtil.shared
 
+enum proxyMode: String {
+    case none = "none"
+    case pac = "pac"
+    case global = "global"
+}
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 

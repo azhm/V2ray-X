@@ -138,32 +138,32 @@ class PacUtil: NSObject {
     
     func generatePac() {
         if GeneratePACFile() {
-            log.info("generated pac file")
+            log.info("Generated pac file")
         } else {
-            log.error("generate pac file error")
+            log.error("Generate pac file error")
         }
     }
     
     func startPacServer() {
         stopPacServer()
         if let data = try? Data(contentsOf: URL(fileURLWithPath: PACFilePath)) {
-            log.info("starting pac server...")
+            log.info("Starting pac server...")
             server.addHandler(forMethod: "GET", path: DefaultsUtil.shared.getPacPath(), request: GCDWebServerRequest.self, processBlock: {
                 request in
                 return GCDWebServerDataResponse(data: data, contentType: "application/x-ns-proxy-autoconfig")
             })
             do {
                 try server.start(options: ["Port": DefaultsUtil.shared.getPacPort(), "BindToLocalhost": true])
-                log.info("pac server started")
+                log.info("Pac server started")
             } catch {
-                log.info("pac server start failed")
+                log.info("Pac server start failed")
             }
         }
     }
     
     func stopPacServer() {
         if server.isRunning {
-            log.info("stop pac server")
+            log.info("Stoping pac server...")
             server.stop()
         }
     }

@@ -23,7 +23,7 @@ class DefaultsUtil: NSObject {
     override init() {
         defaults.register(defaults: [
             Kon: false,
-            Kmode: "pac",
+            Kmode: proxyMode.pac.rawValue,
             KpacPort: 1086,
             KpacPath: "/proxy.pac",
             KglobalPort: 1080,

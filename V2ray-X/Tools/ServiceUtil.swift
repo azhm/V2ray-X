@@ -48,7 +48,7 @@ class ServiceUtil: NSObject {
         let res = runCommand(cmd: "/usr/local/bin/brew", "services", "run", "v2ray-core")
         if (res.exitCode != 0) {
             log.error(res.error)
-            log.error("start v2ray failed")
+            log.error("Start v2ray failed")
         } else {
             log.info(res.output)
         }
@@ -58,7 +58,7 @@ class ServiceUtil: NSObject {
         let res = runCommand(cmd: "/usr/local/bin/brew", "services", "stop", "v2ray-core")
         if (res.exitCode != 0) {
             log.error(res.error)
-            log.error("stop v2ray failed")
+            log.error("Stop v2ray failed")
         } else {
             log.info(res.output)
         }
