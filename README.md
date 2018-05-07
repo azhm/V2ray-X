@@ -1,12 +1,12 @@
 # V2ray-X
 
-<img src="./icon.ico" style="zoom:30%"/>
+<img src="./Icon.ico" width="100" height="100"/>
 
 V2ray-X is a simple v2ray service manager for Mac OS
 
 -------
 
-<img src="./ui.png" style="zoom:40%"/>
+<img src="./ui.png" width="416" height="256"/>
 
 ## What V2ray-X can do
 
